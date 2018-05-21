@@ -4,6 +4,7 @@ language: generic
 
 services:
     - docker
+
 cache:
     directories:
         - node_modules
@@ -21,4 +22,4 @@ deploy:
     file: dist/electron-quick-start_1.0.0_amd64.deb
     on:
         repo: Jeansen/cdmn-tray
-    #     tags: true
+        tags: true
