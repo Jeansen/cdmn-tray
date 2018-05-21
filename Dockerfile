@@ -3,7 +3,7 @@ FROM debian
 ENV DEBUG_COLORS true
 ENV FORCE_COLOR true
 ENV DEBIAN_FRONTEND noninteractive
-ENV DEBUG=electron-builder
+# ENV DEBUG=electron-builder
 
 RUN apt-get update -y && apt-get upgrade -y && \
     apt-get install --no-install-recommends -y \
