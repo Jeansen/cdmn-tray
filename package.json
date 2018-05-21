@@ -1,0 +1,51 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build -l --x64"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": {
+    "name": "GitHub",
+    "email": "jeansen@web.de"
+  },
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.8.4",
+    "electron-builder": "^20.11.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "build": {
+    "appId": "com.app.test",
+    "copyright": "mine",
+    "productName": "My app",
+    "electronVersion": "1.8.4",
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  },
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "ajv-keywords": "^3.2.0",
+    "eslint": "^4.19.1"
+  }
+}
