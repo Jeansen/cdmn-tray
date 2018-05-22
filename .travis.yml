@@ -23,6 +23,7 @@ deploy:
         - dist/*.deb
         - dist/*.rpm
         - dist/*.AppImage
+    skip_cleanup: true
     on:
         repo: Jeansen/cdmn-tray
         # tags: true
