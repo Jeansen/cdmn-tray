@@ -1,51 +1,40 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "cdmn-tray",
+  "version": "0.0.1",
+  "description": "A simple system monitor with a tray.",
   "main": "./app/main.js",
   "scripts": {
     "start": "electron .",
     "dist": "build -l --x64"
   },
   "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
   "author": {
-    "name": "GitHub",
-    "email": "jeansen@web.de"
+    "name": "Marcel Lautenbach",
+    "email": "mlautenb@gmail.com"
   },
-  "license": "CC0-1.0",
+  "license": "GPL 3",
   "devDependencies": {
     "devtron": "^1.4.0",
     "electron": "^1.8.4",
     "electron-builder": "^20.11.1",
-    "eslint-config-google": "^0.9.1"
+    "eslint-config-google": "^0.9.1",
+    "eslint": "^4.19.1"
   },
   "build": {
     "appId": "com.app.test",
-    "copyright": "mine",
-    "productName": "My app",
+    "copyright": "Marcel Lautenbach",
+    "productName": "cdmn-tray",
     "electronVersion": "1.8.4",
-    "win": {
-      "target": [
-        "nsis"
-      ]
-    },
     "linux": {
       "target": [
         "AppImage",
-        "deb"
+        "deb",
+        "rpm"
       ]
     }
   },
   "dependencies": {
     "ajv": "^6.4.0",
     "ajv-keywords": "^3.2.0",
-    "eslint": "^4.19.1"
   }
 }
