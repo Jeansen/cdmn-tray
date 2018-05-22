@@ -1,0 +1,36 @@
+{
+    "app": {
+        "tray-sylte": {
+            "style": "graph",
+            "color": "ff0000",
+            "refresh": 500,
+            "border": true,
+            "background": "0c0c0c",
+            "border-color": "ffffff",
+            "samples": "max",
+            "fork": false
+        }
+    },
+    "trays": {
+        "cpu": {
+            "style": "graph",
+            "color": "ff0000",
+            "refresh": 500,
+            "border": true,
+            "background": "0c0c0c",
+            "border-color": "ffffff",
+            "samples": "max",
+            "fork": false
+        },
+        "disk": {
+            "style": "graph",
+            "color": "ff0000",
+            "refresh": 500,
+            "border": true,
+            "background": "0c0c0c",
+            "border-color": "ffffff",
+            "samples": "max",
+            "fork": false
+        }
+    }
+}
