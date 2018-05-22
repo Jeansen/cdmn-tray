@@ -27,4 +27,4 @@ deploy:
     skip_cleanup: true
     on:
         repo: Jeansen/cdmn-tray
-        # tags: true
+        tags: true
