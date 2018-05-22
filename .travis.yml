@@ -19,7 +19,8 @@ deploy:
     provider: releases
     api_key:
         secure: Pvtx58fJPH3UJr8oWGCUf/seknXqkJI2vNazcUFwp7cJFZ/diAoFQx+k/5Xg+ZNw8Zk5t9z0TY1rcqRubI1JLE9tE1aC8Mu0ZLQ5vZBD0U2RVZXaEFhvO9+9D8dsS8uARWZ4x1MgyNQR1KABSoTRihsjVkBqOL7bnh5ZWTy+JEjw262eR8GvAlSPS6BoL5FCzIiiu0lnv01V2p+0S8kJlKJMdWN650a7QQ00EZrh2r2GmdDpzZCA/LFrybZpCnxTjgRD5tlEaxgxMR+P1jpvO8zJCAmKdNDqMJvwx4d6dGT4qGpZDyxC3jeeG0pS0Y1CAND0KE1YgnIcmP28echXR8Lb4aUZHaNrovtK314NFbNoiWyLHpZVgJOcLZSHFGTLOcnhoN0KRi8GBU4bEuSlMEDN1uvbTcOQZavONLv8YWs/KVuOlG17MG+Dw4gfjxcAoaOLh8vcWBSNTXivdFL5WIVVVzw+kktZbr9hAcnSq0P+mmu0Kd2bQkoM9uT+I9+gQLgtEjoMPizIShgVDrVWY/jwljgPJSSiCnYfhYJ90PVx47K4omA2JeSV/fwIdWc7nRnIBuJj77/pdBFcmL5KApDm0vjJvuNODIzN7/H9b12NUz2OcF8raeJx9BvqDViye7F24S+nAnhwOXUGqptg2ym7NSTeyFnpNU06KvjFolA=
-    file: dist/electron-quick-start_1.0.0_amd64.deb
+    file: dist/cdmn-tray.deb
+    file: dist/cdmn-tray.rpm
     on:
         repo: Jeansen/cdmn-tray
-        tags: true
+        # tags: true
