@@ -16,7 +16,7 @@
   "devDependencies": {
     "devtron": "^1.4.0",
     "electron": "^1.8.4",
-    "electron-builder": "^20.11.1",
+    "electron-builder": "^20.44.4",
     "eslint-config-google": "^0.9.1",
     "eslint": "^4.19.1"
   },
